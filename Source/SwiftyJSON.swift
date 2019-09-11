@@ -1002,6 +1002,7 @@ extension JSON {
             errorValue.code == ErrorWrongType {
                 return false
         }
+        if _type == .null { return false }  //mjc
         return true
     }
 }
