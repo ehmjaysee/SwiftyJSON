@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => "https://github.com/SwiftyJSON/SwiftyJSON.git", :tag => s.version }
   s.source_files = "Source/*.swift"
   s.pod_target_xcconfig =  {
-        'SWIFT_VERSION' => '3.0',
+        'SWIFT_VERSION' => '4.0',
   }
 end
